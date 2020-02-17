@@ -11,7 +11,7 @@ Language: Python
 
 
 
-- #1 Dataset and algorithm exploration
-- #2 Algorithm 8 and 9 testing using found databases
+- #1 Datasets and algorithms exploration
+- #2 Algorithms 8 and 9 testing using found databases
 - #3 ...
 
