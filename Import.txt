@@ -1,0 +1,37 @@
+IMPORT REQUIRED FOR RUNNING THE CODE:
+
++dlib
++opncv
++face_recognition
+
+
+#----------------------------------------------------------------------------------#
+Install dlib for Gpu:
+$ git clone https://github.com/davisking/dlib.git
+$ cd dlib
+$ mkdir build
+$ cd build
+$ cmake .. -DDLIB_USE_CUDA=1 -DUSE_AVX_INSTRUCTIONS=1
+$ cmake --build .
+$ cd ..
+$ python setup.py install --yes USE_AVX_INSTRUCTIONS --yes DLIB_USE_CUDA
+#----------------------------------------------------------------------------------#
+
+#----------------------------------------------------------------------------------#
+install face_recognition:
+pip install face_recognition
+#----------------------------------------------------------------------------------#
+
+#----------------------------------------------------------------------------------#
+install open cv on linux:
+Refresh the packages index and install the OpenCV package by typing:
+sudo apt update
+sudo apt install python3-opencv
+
+#----------------------------------------------------------------------------------#
+
+To install this package with CONDA run one of the following:
+conda install -c conda-forge opencv
+conda install -c conda-forge/label/gcc7 opencv
+conda install -c conda-forge/label/broken opencv
+conda install -c conda-forge/label/cf201901 opencv
