@@ -2,7 +2,7 @@
 
 Working on algorithm n.9
 Multiple test performed in the notebook file basing on:
-- Standard DB
+- Provided DB
 - DB3-Faces
 - DB1-YoutubeFrames
 
