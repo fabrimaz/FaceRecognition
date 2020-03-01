@@ -1,0 +1,33 @@
+DLIB configuration for NVidias gpus on Anaconda for Win10:
+1. pip install Cmake
+2. Download Cuda Environment (version 10) for Win10
+3. Subscribe to Cuda Developer and download CuDNN
+4. Put the files .dll found in the .zip in the right place inside the Cuda Environment installation
+5. python setup.py install --set DLIB_USE_CUDA=1 --set USE_AVX_INSTRUCTIONS=1
+-----
+If every is correct it will appear: Dlib WILL USE CUDA
+
+
+However there could be some incompatibility between your GPU driver and CUDA environemnt.
+
+To solve it:
+- I upgraded GPU drivers
+- I downgraded CUDA environment
+
+The version 10.1 cuda environment seems to be incompatible with my computer. while my gpu driver version is at maximum 423, the version 10.2 needs a driver at version higher than 440
+
+-----------------------
+I spent lots of hours trying to make the GPU work with DLIB.
+At the end, after installing nvidia drivers and cuDNN drivers, I managed to install GPU computed DLIB.
+However, although everything seems to be ok, I found some new errors.
+
+Running the python notebook there was an issue about an incompatibility between my cuda driver and environment. 
+So I updated my cuda driver to the latest available for graphic card. 
+But looking on the Nvidia spec here: 
+https://docs.nvidia.com/deploy/cuda-compatibility/index.html#binary-compatibility__table-toolkit-driver
+I could see that the latest driver was not enough updated to run on environment 10.2.
+So I tried to downgrade the environment to 10.1. Installing it, the installation is blocked by some unspecified errors.
+Versions <10.0 are totally incompatible for my system, as the installation program says.
+At the end, with my graphic card, it worked using the environment 10.0.
+
+I explored also Linux solution but it seems to that Virtual Machine has not a direct access to graphic card. 
