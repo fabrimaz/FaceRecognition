@@ -4,7 +4,7 @@
 
 Tasks:
 
-- Make DLIB working on GPU
+- Make DLIB work on GPU
 
 - Massevely test algoirthm 9 using entire DB1-Youtube
 
