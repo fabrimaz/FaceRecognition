@@ -14,4 +14,6 @@ Multiple test performed working on algorithm n.9 in the notebook file.
 Training are performed on a person single folder and then it is tested on the other folders.
 Logs track the results of the test
 
+NOTE: I won't be able to upload 5 GB test folder
+
 Submission: 01/03/2020
