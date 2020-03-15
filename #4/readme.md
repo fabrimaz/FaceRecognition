@@ -1,4 +1,4 @@
-##Face Recognition #4
+#Face Recognition #4
 
  - created a logic allowing to answer True, but also False without going to the end of the video
  - checked for mismatch: for one video, run on all other video in the dataset
