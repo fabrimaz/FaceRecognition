@@ -17,5 +17,6 @@ Language: Python
 - #4 Cross test on all folders using algorithm 9
 - #5 Tolerance and Threshold tuning on DB1-Youtube
 - #6 Performance improvement and parameter tuning on FaceRecs DB
-- #7 ...
+- #7 Advanced algortithms to improve performances
+- #8 ...
 
