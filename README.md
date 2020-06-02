@@ -20,6 +20,6 @@ Language: Python
 - #7 Advanced algortithms to improve performances (1)
 - #8 Advanced algortithms to improve performances (2)
 - #9 Profile and front facing detection implementation
-- #10 Double face descarding on both sets
-- #11 ..
+- #10 Face resolution descarding on both sets
+- #11 Not front-facing descarding on both sets and video confirmation logics comparison
 
