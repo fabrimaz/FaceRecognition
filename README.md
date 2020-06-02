@@ -21,4 +21,5 @@ Language: Python
 - #8 Advanced algortithms to improve performances (2)
 - #9 Profile and front facing detection implementation
 - #10 Double face descarding on both sets
+- #11 ..
 
